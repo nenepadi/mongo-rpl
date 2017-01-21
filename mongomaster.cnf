@@ -1,0 +1,14 @@
+dbpath=/var/lib/mongodb
+logpath=/var/log/mongodb/mongodb.log
+logappend=true
+bind_ip = 127.0.0.1
+port = 27017
+journal=true
+fork=true
+
+# Verbose logging output.
+# verbose = true
+
+smallfiles = true
+oplogSize = 64
+replSet = prodRepl
